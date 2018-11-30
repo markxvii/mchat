@@ -1,0 +1,2 @@
+FLASK_APP=mchat
+FLASK_ENV=development
