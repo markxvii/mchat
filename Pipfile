@@ -1,12 +1,22 @@
 [[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
-name = "pypi"
-
-[packages]
-flask = "*"
-
-[dev-packages]
-
-[requires]
-python_version = "3.7"
+ url = "https://pypi.python.org/simple"
+ verify_ssl = true
+ name = "pypi"
+ [dev-packages]
+ mock = "*"
+ watchdog = "*"
+ faker = "*"
+ [packages]
+ Flask-SocketIO = "*"
+ Flask = "*"
+ python-dotenv = "*"
+ flask-login = "*"
+ Flask-WTF = "*"
+ Flask-Moment = "*"
+ Flask-OAuthlib = "*"
+ eventlet = "*"
+ bleach = "*"
+ Markdown = "*"
+ Pygments = "*"
+ Flask-SQLAlchemy = "*"
+ flask-migrate = "*"
